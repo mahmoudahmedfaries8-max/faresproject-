@@ -133,7 +133,7 @@ An AWS Account with configured credentials (e.g., via aws configure)
 🔧 Deployment Steps
 Clone the repository:
 
-git clone 
+git clone [https://github.com/mahmoudahmedfaries8-max/faresproject-]
 cd aws-secure-webapp-terraform
 Initialize Terraform: This downloads the necessary AWS provider plugins.
 
@@ -168,6 +168,7 @@ terraform destroy
 
 
 <img width="1692" height="874" alt="Terraform-afterreload" src="https://github.com/user-attachments/assets/42cdad49-99f1-4691-b0df-f7495f902f63" />
+
 
 
 
