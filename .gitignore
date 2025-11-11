@@ -1,0 +1,43 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# Terraform local settings
+.terraform/
+.terraform.lock.hcl
+.terraform.tfvars.json
+
+# Ignore variable files containing secrets
+*.tfvars
+*.tfvars.json
+secret.tfvars
+dev.tfvars
+prod.tfvars
+
+# Ignore backend override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore IDE/editor files
+*.log
+*.swp
+*.idea/
+*.vscode/
+.DS_Store
+
+# SSH keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ecdsa
+id_ecdsa.pub
+
+# Local generated files
+all-ips.txt
+backend-app/.env
