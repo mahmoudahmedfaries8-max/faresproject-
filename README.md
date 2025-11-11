@@ -40,61 +40,61 @@ local-exec → generate all-ips.txt
 File Tree Overview
 TERRAFORM PROJECT
 ├── modules/
-│   ├── alb_target/   # Manages ALB target groups and attachment
+│   ├── alb_target/   
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── ec2_backend/        # Provisions the private backend EC2 instances
-│   │   ├── scripts/        # User-data scripts for backend (e.g., install app)
+│   ├── ec2_backend/        
+│   │   ├── scripts/        
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── ec2_proxy/          # Provisions the public proxy EC2 instances
-│   │   ├── scripts/        # User-data scripts for proxy (e.g., install nginx)
+│   ├── ec2_proxy/          
+│   │   ├── scripts/       
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── igw/      _         # Manages the Internet Gateway
+│   ├── igw/      _        
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── load_balancer/      # Provisions the Public and Internal ALBs
+│   ├── load_balancer/      
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── nat_gateway/        # Provisions the NAT Gateway and Elastic IP
+│   ├── nat_gateway/        
 │  _  │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── Private_subnet/     # Manages the private subnets
+│   ├── Private_subnet/    
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── public_subnet/      # Manages the public subnets
+│   ├── public_subnet/      
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── routing_tables/     # Manages all route tables and associations
+│   ├── routing_tables/    
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── security_group/     # A reusable module to create security groups
+│   ├── security_group/     
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   ├── vpc/                # Provisions the base VPC
+│   ├── vpc/               
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variable.tf
-│   └── webapp/             # (Likely a helper module, e.g., for deployment)
+│   └── webapp/            
 │   │   ├── app.py
 │   └── └── requirements.txt
 │
-├── .gitignore              # Specifies files for Git to ignore
-├── .terraform.lock.hclMusic    # Locks provider versions for consistency
-├── main.tf                 # Root module: orchestrates all other modules
-├── variables.tf            # Root variables: user-configurable inputs
-└── outputs.tf              # Root outputs: displays key info (like the ALB URL)
+├── .gitignore             
+├── .terraform.lock.hclMusic   
+├── main.tf                 
+├── variables.tf          
+└── outputs.tf             
 
 
 odule Responsibilities
@@ -166,6 +166,7 @@ terraform destroy
 
 
 <img width="1692" height="874" alt="Terraform-afterreload" src="https://github.com/user-attachments/assets/42cdad49-99f1-4691-b0df-f7495f902f63" />
+
 
 
 
