@@ -1,3 +1,7 @@
+<img width="1004" height="594" alt="image" src="https://github.com/user-attachments/assets/627f3949-3490-4c5f-bd8d-b38473d7d9a3" />
+
+
+
 Secure Web App with Public Proxy + Private Backend on AWS (Terraform)
 📌 Project Overview
 
@@ -60,4 +64,5 @@ local-exec → generate all-ips.txt
 
 
 <img width="1920" height="719" alt="image" src="https://github.com/user-attachments/assets/09bd64a5-cdd9-4c0b-813e-bbb57ea59e0e" />
+
 
