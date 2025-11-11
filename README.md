@@ -39,6 +39,8 @@ local-exec → generate all-ips.txt
 
 File Tree Overview
 TERRAFORM PROJECT
+
+
 ├── modules/
 │   ├── alb_target/   
 │   │   ├── main.tf
@@ -166,6 +168,7 @@ terraform destroy
 
 
 <img width="1692" height="874" alt="Terraform-afterreload" src="https://github.com/user-attachments/assets/42cdad49-99f1-4691-b0df-f7495f902f63" />
+
 
 
 
